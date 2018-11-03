@@ -33,7 +33,7 @@ return (
 
     <Row className="row" type="flex" gutter={16} justify="space-around">
 {
-  [0,1,2].map((e, i) => 
+  [0,1,2,3].map((e, i) => 
   <Col className="gutter-row" key={i}>
   <Cardy key={i}/>
 </Col>
@@ -42,7 +42,7 @@ return (
    </Row>
    <Row className="row" type="flex" gutter={16} justify="space-around">
 {
-  [0,1,2].map((e, i) => 
+  [0,1,2,3].map((e, i) => 
   <Col className="gutter-row" key={i}>
   <Cardy key={i}/>
 </Col>
